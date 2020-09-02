@@ -1,0 +1,15 @@
+$primary-color: green;
+$secondary-color: red;
+$main-font: 'Times New Roman', Times, serif;
+
+@mixin slow-transition {
+    transition: all 1s ease-in-out;
+}
+
+@mixin medium-transition {
+    transition: all 0.5s ease-in-out;
+}
+
+@mixin fast-transition {
+    transition: all 0.15s ease-in-out;
+}
