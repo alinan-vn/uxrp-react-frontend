@@ -1,0 +1,29 @@
+.home {
+
+
+    &__head {
+        display: flex;
+
+        &-text {
+            padding-left: 25%;
+            padding-right: 5rem;
+            width: 25%;
+
+            & > h1 {
+                font-size: 4rem;
+            }
+
+            & > p {
+                font-size: 1rem;
+                margin-top: -2rem;
+            }
+        }
+
+        &-img {
+            & > img {
+                height: 25vh;
+                width: auto;
+            }
+        }
+    }
+}
