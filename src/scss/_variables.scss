@@ -1,6 +1,5 @@
-$primary-color: green;
-$secondary-color: red;
-$main-font: 'Times New Roman', Times, serif;
+// $main-font: 'Helvetica Neue';
+
 
 @mixin slow-transition {
     transition: all 1s ease-in-out;
