@@ -12,6 +12,11 @@ class Nav extends React.Component {
                     </li>
                     <li>
                         <a href='/login'>
+                            Search Input
+                        </a>
+                    </li>
+                    <li>
+                        <a href='/login'>
                             Login
                         </a>
                     </li>
